@@ -1,0 +1,590 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.108.0">
+  <title>Contos do Clever</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cheatsheet/">
+  <link href="BOOTSTRAP/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="cheatsheet.css" rel="stylesheet">
+  <!--------------------->
+
+  <link rel="shortcut icon" href="imagens/cclogo.png" type="image/x-icon">
+
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/navbars-offcanvas/">
+  <!--------------------->
+  <link href="css/jsatec-p-inicial.css" rel="stylesheet">
+  <link href="css/jsatec-carousel.css" rel="stylesheet">
+  <link href="css/jsatec-carousel-resp.css" rel="stylesheet">
+  <link href="css/jsatec-carousel-resp2.css" rel="stylesheet">
+  <link href="css/jsatec-p-inicial-resp.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/jsatec-pubicacao.css">
+
+  <style>
+
+
+  </style>
+  <link href="bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+
+
+  <style>
+
+  </style>
+
+
+
+
+</head>
+
+<body>
+
+  <div id="site">
+    <nav class="navbar navbar-dark bg-dark" style="padding: 0;" aria-label="Dark offcanvas navbar">
+
+      <div class="sub">
+
+        <div id="secleft">
+
+
+          <a class="navbar-brand" id="cclogo" href="#">
+            <img src="imagens/cclogo.png" alt="">
+          </a>
+
+          <div id="sel_fom">
+
+            <form action="" id="categ">
+              <select name="" id="">
+                <option value="">Tudo</option>
+              </select>
+            </form>
+            <form id="pesquisar">
+              <input class="" type="search" placeholder="pesquisar" aria-label="Search">
+              <button type="submit" style="margin: 0;">
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg>
+
+              </button>
+            </form>
+          </div>
+
+        </div>
+
+
+
+
+
+
+        <div id="secright">
+
+          <a href="" class="entrar">Entrar
+            <svg xmlns="http://www.w3.org/2000/svg" style="margin-left: 5px;" width="16" height="16" fill="currentColor"
+              class="bi bi-person-circle" viewBox="0 0 16 16">
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+              <path fill-rule="evenodd"
+                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+            </svg>
+          </a>
+
+
+          <a href="" class="donate"><img src="imagens/donate.png" title="Fazer doação" alt="donat-image"></a>
+          <a href="" class="adultcont">+18</a>
+
+
+          <button style="padding: 0;" class="navbar-toggler menu" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+
+
+        <div class="offcanvas offcanvas-end text-bg-dark" style="background-color: #000;" tabindex="-1"
+          id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
+
+          <button style="padding: 0;" class="navbar-toggler fecha-menu" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark">
+            →
+          </button>
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">Offcanvas</h5>
+            <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </nav>
+
+    <!-------------  FIM DO CABEÇALHO  -------------->
+
+
+
+
+
+
+
+
+
+
+
+    <main id="carousel" style="position: absolute;"><!------  carousel -------->
+
+      <div class="melhores">
+        <h1>Melhores de sempre</h1>
+
+        <form action="">
+          <select name="" id="">
+            <option value="">Tudo</option>
+          </select>
+        </form>
+      </div>
+
+      <div id="myCarousel" class="carousel slide jsatec" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <svg class="bd-placeholder-img c-area" width="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice" focusable="false">
+              <rect width="100%" height="100%" fill="" />
+            </svg>
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <a href="" class="a"><img src="imagens/01.jpg" alt=""></a>
+                <a href="" class="b"><img src="imagens/01.jpg" alt=""></a>
+                <a href="" class="c"><img src="imagens/01.jpg" alt=""></a>
+                <a href="" class="d"><img src="imagens/cc_logo.png" alt=""></a>
+
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img c-area" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <rect width="100%" height="100%" fill="#" />
+            </svg>
+            <div class="container">
+              <div class="carousel-caption">
+
+                <a href="" class="a"><img src="imagens/01.jpg" alt=""></a>
+                <a href="" class="b"><img src="imagens/01.jpg" alt=""></a>
+                <a href="" class="c"><img src="imagens/01.jpg" alt=""></a>
+                <a href="" class="d"><img src="imagens/cc_logo.png" alt=""></a>
+
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img c-area" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <rect width="100%" height="100%" fill="#" />
+            </svg>
+            <div class="container">
+              <div class="carousel-caption text-end">
+
+                <a href="" class="a"><img src="imagens/01.jpg" alt=""></a>
+                <a href="" class="b"><img src="imagens/01.jpg" alt=""></a>
+                <a href="" class="c"><img src="imagens/01.jpg" alt=""></a>
+                <a href="" class="d"><img src="imagens/cc_logo.png" alt=""></a>
+
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img c-area" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <rect width="100%" height="100%" fill="#" />
+            </svg>
+            <div class="container">
+              <div class="carousel-caption text-end">
+
+                <a href="" class="a"><img src="imagens/01.jpg" alt=""></a>
+                <a href="" class="b"><img src="imagens/01.jpg" alt=""></a>
+                <a href="" class="c"><img src="imagens/01.jpg" alt=""></a>
+                <a href="" class="d"><img src="imagens/cc_logo.png" alt=""></a>
+
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img c-area" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <rect width="100%" height="100%" fill="#" />
+            </svg>
+            <div class="container">
+              <div class="carousel-caption text-end">
+
+                <a href="" class="a"><img src="imagens/01.jpg" alt=""></a>
+                <a href="" class="b"><img src="imagens/cc_logo.png" alt=""></a>
+                <a href="" class="c"><img src="imagens/01.jpg" alt=""></a>
+                <a href="" class="d"><img src="imagens/cc_logo.png" alt=""></a>
+
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+        <button class="carousel-control-prev c-controls" type="button" data-bs-target="#myCarousel"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button c-controls class="carousel-control-next c-controls" type="button" data-bs-target="#myCarousel"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+
+
+
+
+      <!---------   Área das publicações na página inicial     --------------->
+      <div id="global">
+
+        <h1 class="titulo">
+          PARA VOCÊ
+        </h1>
+
+        <div class="globalsub">
+
+          <div class="secleft">
+            <div class="maior">
+
+              <a href="" class="maior">
+
+                <img src="imagens/01.jpg" alt="">
+                <div class="">
+                  <span class="data">28/01/2024</span>
+                  <h1>Ela só cai com papoites</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt explicabo, nemo rerum illo quo, fugit
+                    beatae eius necessitatibus voluptatum enim ad rem consequatur cupiditate. Minima commodi enim ea sed
+                    dolor.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem nobis similique ipsam qui ducimus nulla officiis molestiae iste quos animi in, harum quae atque, doloremque asperiores sapiente dignissimos. Numquam, illum?
+                    Ab voluptatibus, impedit exercitationem nostrum dolor, nobis voluptatum quaerat sapiente similique minus eos harum laboriosam iure rerum veritatis nisi ipsum vero quam excepturi maxime nesciunt alias quidem provident? Laboriosam, animi.
+                    Ducimus odit libero numquam odio recusandae sunt pariatur temporibus fugit. Natus accusamus optio, enim, ducimus velit reprehenderit iure qui aperiam quasi consectetur dolores officiis animi aspernatur quia doloremque illum non!
+                    Nesciunt commodi nemo, quae minus deleniti mollitia. Impedit libero est, reiciendis nesciunt illum porro, autem maiores nemo doloremque exercitationem ad molestiae quas nostrum aliquid possimus repellat beatae. Nam, dolore cumque.
+                    Saepe nostrum illo doloribus tenetur odit maxime laborum dolores, dignissimos, vel neque eveniet optio nobis provident minima rem placeat nulla. Fuga ipsa, tenetur soluta quasi vel ratione minus id. Nisi.
+                    Dolorum ratione nihil omnis fuga modi quibusdam, unde doloremque harum voluptas fugiat deserunt impedit minima similique ipsum vitae adipisci? Vitae non facilis, distinctio rem cupiditate quasi eum accusamus excepturi ab!
+                    Assumenda molestias autem cumque iste, provident illo repellendus beatae inventore expedita, recusandae itaque odit nemo nihil! Eos vel rem ad ea aperiam facilis a, id temporibus! Nobis dolorem vero possimus.
+                    Enim rem mollitia voluptatem illo a non repudiandae quisquam nemo sequi nisi dignissimos facere vel obcaecati quam, exercitationem, molestias laboriosam sed magnam illum. Veniam, libero quos aspernatur consequatur neque quaerat?
+                    Mollitia magnam cupiditate, similique velit expedita ratione blanditiis fuga placeat saepe nesciunt rem esse maiores, dolore quis nulla est sed, explicabo eveniet ipsam aspernatur nobis commodi cum dolorem. Quasi, porro!
+                    Odit facilis ipsum magni et maiores nihil illo non minus incidunt! Natus fugiat tempora architecto repellat, deserunt repellendus expedita ducimus minus aspernatur? Saepe error doloremque rem vero sapiente. Repellendus, accusantium?
+                  </p>
+                </div>
+
+              </a>
+              <div class="reaccao">
+
+                <div class="like"><img src="imagens/lf.png" title="Like" alt="like"> <span>0101</span></div>
+                <div class="comentarios"><img src="imagens/cm.png" title="Comentário" alt="comentário">
+                  <span>4554</span>
+                </div>
+
+
+              </div>
+            </div>
+
+
+            <!-------------------------------->
+
+            <div class="outrosposts">
+
+
+              <div class="sub">
+                <div class="conteudo">
+                  <a href="">
+                    <span>21/01/2023</span>
+                    <img src="imagens/01.jpg" alt="">
+                    <h1>Ela só cai com paoites</h1>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque dolore illo dolores harum? Modi
+                      quo
+                      blanditiis aperiam corrupti nobis, deleniti minima, nisi dolorem beatae laboriosam rerum nulla
+                      explicabo
+                      dolor asperiores? lorem*9
+                    </p>
+
+                  </a>
+                </div>
+                <div class="reacc">
+                  <div class="like"><img src="imagens/lf.png" title="Like" alt="like"> <span>0101</span></div>
+                  <div class="comentarios"><img src="imagens/cm.png" title="Comentário" alt="comentário">
+                    <span>4554</span>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="sub">
+                <div class="conteudo">
+                  <a href="">
+                    <span>21/01/2023</span>
+                    <img src="imagens/01.jpg" alt="">
+                    <h1>Ela só cai com paoites</h1>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque dolore illo dolores harum? Modi
+                      quo
+                      blanditiis aperiam corrupti nobis, deleniti minima, nisi dolorem beatae laboriosam rerum nulla
+                      explicabo
+                      dolor asperiores? lorem*9
+                    </p>
+
+                  </a>
+                </div>
+                <div class="reacc">
+                  <div class="like"><img src="imagens/lf.png" title="Like" alt="like"> <span>0101</span></div>
+                  <div class="comentarios"><img src="imagens/cm.png" title="Comentário" alt="comentário">
+                    <span>4554</span>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="sub">
+                <div class="conteudo">
+                  <a href="">
+                    <span>21/01/2023</span>
+                    <img src="imagens/01.jpg" alt="">
+                    <h1>Ela só cai com paoites</h1>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque dolore illo dolores harum? Modi
+                      quo
+                      blanditiis aperiam corrupti nobis, deleniti minima, nisi dolorem beatae laboriosam rerum nulla
+                      explicabo
+                      dolor asperiores? lorem*9
+                    </p>
+
+                  </a>
+                </div>
+                <div class="reacc">
+                  <div class="like"><img src="imagens/lf.png" title="Like" alt="like"> <span>0101</span></div>
+                  <div class="comentarios"><img src="imagens/cm.png" title="Comentário" alt="comentário">
+                    <span>4554</span>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <!--------------------------------------------------->
+          <!--------------   secright        ------------------>
+
+
+
+
+
+          <div class="secright">
+
+           
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="sub">
+              <div class="conteudo">
+                <a href="">
+                  <span>21/01/2023</span>
+                  <img src="imagens/01.jpg" alt="">
+                </a>
+              </div>
+              <div class="reacc">
+                <div class="like"><img src="imagens/lf.png" title="Like" alt="like"> <span>0101</span></div>
+                <div class="comentarios"><img src="imagens/cm.png" title="Comentário" alt="comentário">
+                  <span>4554</span>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+            <div class="sub">
+              <div class="conteudo">
+                <a href="">
+                  <span>21/01/2023</span>
+                  <img src="imagens/01.jpg" alt="">
+                </a>
+              </div>
+              <div class="reacc">
+                <div class="like"><img src="imagens/lf.png" title="Like" alt="like"> <span>0101</span></div>
+                <div class="comentarios"><img src="imagens/cm.png" title="Comentário" alt="comentário">
+                  <span>4554</span>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+ <div class="sub">
+              <div class="conteudo">
+                <a href="">
+                  <span>21/01/2023</span>
+                  <img src="imagens/01.jpg" alt="">
+                </a>
+              </div>
+              <div class="reacc">
+                <div class="like"><img src="imagens/lf.png" title="Like" alt="like"> <span>0101</span></div>
+                <div class="comentarios"><img src="imagens/cm.png" title="Comentário" alt="comentário">
+                  <span>4554</span>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+      </div>
+    </main>
+  </div><!---  FIM DO SITE  ---->
+  <script src="bootstrap/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
