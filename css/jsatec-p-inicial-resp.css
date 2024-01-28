@@ -1,0 +1,693 @@
+@media screen and (max-width:1100px) {
+
+
+    nav div#secleft {
+        width: 61%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    nav div.sub {
+        padding: 1rem 0;
+    }
+
+    nav div a#cclogo {
+        width: 21%;
+        margin-left: 0.1rem;
+    }
+
+
+
+
+
+    nav div a#cclogo img {
+        height: 4rem;
+
+    }
+
+
+    div#sel_fom form#categ select {
+        height: 3rem;
+    }
+
+    nav div div#sel_fom form#pesquisar {
+        width: 90%;
+    }
+
+    div#sel_fom form#pesquisar input {
+        width: 88%;
+        height: 3rem;
+    }
+
+    div#sel_fom form#pesquisar button {
+        width: 12%;
+        height: 3rem;
+        border: none;
+        font: normal 14pt helvetica, sans-serif;
+    }
+
+    div#sel_fom form#pesquisar button svg {
+        width: 90%;
+    }
+
+
+    /************************/
+
+    div#secright {
+        width: 30.5%;
+        margin-left: 6.5%;
+    }
+
+
+
+    a.entrar {
+        padding: 5px 10px;
+        border-radius: 5px;
+        font: normal 18pt helvetica, arial, sans-serif;
+    }
+
+
+
+    a.donate img {
+        width: 2.8rem;
+        border: 0.5px solid #ffc600;
+        border-radius: 50%;
+        padding: 3px;
+    }
+
+    div#secright a.adultcont {
+        display: none;
+    }
+
+
+    button.menu span {
+        width: 3rem;
+        height: 3rem;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/************  880px  ************/
+
+
+@media screen and (max-width:880px) {
+    nav div#secleft {
+        width: 65%;
+    }
+
+    nav div a#cclogo {
+        width: 21%;
+        margin-left: 0.1rem;
+    }
+
+
+
+
+
+
+
+
+
+    /************************/
+
+    div#secright {
+        width: 26.5%;
+        margin-left: 6.5%;
+    }
+
+
+
+    a.entrar {
+        padding: 5px 8px;
+        border-radius: 5px;
+        font: normal 18pt helvetica, arial, sans-serif;
+    }
+
+
+
+    a.donate {
+        display: none;
+
+    }
+
+    div#secright a.adultcont {
+        display: none;
+    }
+
+
+    button.menu span {
+        width: 3rem;
+        height: 3rem;
+    }
+
+
+
+    nav div div#sel_fom form#pesquisar {
+        width: 88%;
+    }
+
+    div#sel_fom form#pesquisar button {
+        width: 12%;
+    }
+
+
+
+    div#sel_fom form#pesquisar button svg {
+        width: 100%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************  650px  ************/
+
+
+@media screen and (max-width:650px) {
+    nav div#secleft {
+        width: 80%;
+    }
+
+    nav div a#cclogo {
+        width: 23%;
+        margin-left: 0.1rem;
+    }
+
+
+
+    nav div div#sel_fom form#pesquisar {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+
+
+    div#sel_fom form#pesquisar input {
+        width: 88%;
+    }
+
+    div#sel_fom form#pesquisar button {
+        width: 2.5rem;
+    }
+
+
+
+    div#sel_fom form#pesquisar button svg {
+        width: 100%;
+    }
+
+
+
+
+
+    /************************/
+
+    div#secright {
+        width: 10%;
+        margin-left: 8%;
+    }
+
+
+
+    a.entrar {
+        display: none;
+    }
+
+
+
+    a.donate {
+        display: none;
+
+    }
+
+    div#secright a.adultcont {
+        display: none;
+    }
+
+
+    button.menu span {
+        width: 3rem;
+        height: 3rem;
+    }
+
+
+
+    button.fecha-menu {
+        width: max-content;
+        display: flex;
+        font: bolder 20pt helvetica, arial, sans-serif;
+        background-color: rgb(46, 46, 46);
+        margin-left: auto;
+        margin-right: 1%;
+        margin-top: 0.5rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:570px) {
+    nav div#secleft {
+        width: 80%;
+
+    }
+
+    nav div.sub {
+        padding: 0.5rem 0;
+    }
+
+    nav div div#sel_fom form#pesquisar {
+        width: 100%;
+    }
+
+
+
+    div#sel_fom form#pesquisar input {
+        height: 3rem;
+    }
+
+    div#sel_fom form#pesquisar button {
+        height: 3rem;
+    }
+
+
+
+    div#sel_fom form#pesquisar button svg {
+        width: 100%;
+    }
+
+
+
+    /************************/
+
+    div#secright {
+        width: 10%;
+        margin-left: 8.4%;
+    }
+
+
+
+    button.menu span {
+        width: 2.7rem;
+        height: 2.7rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+    nav div#secleft {
+        width: 80%;
+    }
+
+    nav div.sub {
+        padding: 0.1rem 0;
+    }
+
+    nav div a#cclogo {
+        width: 23%;
+        margin-left: 0.1rem;
+    }
+
+
+    nav div a#cclogo img {
+        height: 3rem;
+
+    }
+
+    nav div div#sel_fom form#pesquisar {
+        width: 100%;
+    }
+
+
+
+    div#sel_fom form#pesquisar input {
+        width: 88%;
+        height: 2.3rem;
+
+    }
+
+    div#sel_fom form#pesquisar button {
+        width: 2rem;
+        height: 2.3rem;
+    }
+
+
+
+    div#sel_fom form#pesquisar button svg {
+        width: 100%;
+    }
+
+
+
+
+
+    /************************/
+
+    div#secright {
+        width: 10%;
+        margin-left: 8%;
+    }
+
+
+
+
+
+    button.menu span {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:420px) {
+
+
+    nav div#secleft {
+        width: 78%;
+
+    }
+
+    /************************/
+
+    div#secright {
+        width: 12%;
+        margin-left: 9%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:390px) {
+    nav div#secleft {
+        width: 78%;
+
+    }
+
+
+    nav div div#sel_fom form#pesquisar {
+        width: 100%;
+    }
+
+
+    div#sel_fom form#pesquisar button svg {
+        width: 100%;
+    }
+
+
+
+    /************************/
+
+    div#secright {
+        width: 11%;
+        margin-left: 8%;
+    }
+
+
+
+    button.menu span {
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:320px) {
+    nav div#secleft {
+        width: 74%;
+
+    }
+
+    nav div.sub {
+        padding: 0.1rem 0;
+    }
+
+
+
+
+
+    nav div div#sel_fom form#pesquisar {
+        width: 100%;
+    }
+
+
+
+    div#sel_fom form#pesquisar input {
+        width: 88%;
+        height: 2.3rem;
+
+    }
+
+    div#sel_fom form#pesquisar button {
+
+        height: 2.3rem;
+    }
+
+
+
+    div#sel_fom form#pesquisar button svg {
+        width: 100%;
+    }
+
+
+
+
+
+    /************************/
+
+    div#secright {
+        width: 16%;
+        margin-left: 9%;
+    }
+
+
+
+
+
+    button.menu span {
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:250px) {
+
+
+    nav div#secleft {
+        width: 72%;
+
+    }
+
+    /************************/
+
+    div#secright {
+        width: 18%;
+        margin-left: 7%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************/
+/************  485px  ************/
+/************************/
+
+@media screen and (max-width:320px) {}
+
+
+
+
+
+
+
+@media screen and (max-width:412px) {}
+
+
+
+
+
+
+
+
+
+
+/************************/
+/************  375px  ************/
+/************************/
+
+@media screen and (max-width:375px) {}
+
+
+
+
+@media screen and (max-width:384px) {}
+
+
+
+
+
+
+/************************/
+
+
+
+
+
+
+
+/************  300px  ************/
+/************************/
+
+@media screen and (max-width:300px) {}

@@ -1,0 +1,226 @@
+ @media screen and (max-width:1100px) {
+
+    
+main#carousel {
+    width: 100%;
+  }
+
+  
+
+div.carousel-caption {
+    width: 97%;
+    margin-left: -14%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;  
+  }
+  
+  
+svg.c-area {
+    width: 100%;
+    height: 29rem;
+    fill: #1f1f1fb9;
+  }
+  
+  
+  
+  div.carousel-caption a {
+    width: 32%;
+   
+  }
+  
+div.carousel-caption a.d,
+  div.carousel-caption a.d img {
+    display:none ;
+  }
+
+  
+  
+  
+  
+  div.carousel-caption a img {
+    height: 25rem;
+  }
+  
+
+
+
+  button.c-controls {
+   display: none
+  }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************************************/
+
+
+
+@media screen and (max-width:800px) {
+
+    
+  main#carousel {
+      width: 100%;
+    }
+  
+    
+    
+    
+  svg.c-area {
+      width: 100%;
+      height: 24rem;
+    }
+    
+    
+    
+    div.carousel-caption a {
+      width: 32%;
+     
+    }
+    
+  div.carousel-caption a.d,
+    div.carousel-caption a.d img {
+      display:none ;
+    }
+  
+    
+    
+    
+    
+    div.carousel-caption a img {
+      height: 20rem;
+    }
+    
+  
+  
+  
+    button.c-controls {
+     display: none
+    }
+  
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+  /************************************************/
+
+
+  @media screen and (max-width:700px){
+    
+    svg.c-area {
+        height: 29rem;
+      }
+      
+      
+      
+      div.carousel-caption a {
+        width: 48.5%;
+       
+      }
+     
+    div.carousel-caption a.c,div.carousel-caption a.d,
+    div.carousel-caption a.c img,
+    div.carousel-caption a.d img {
+      display:none ;
+    }
+      
+      div.carousel-caption a img {
+        height: 25rem;
+      }
+      
+    
+    
+      }
+    
+  
+
+  /************************************************/
+
+
+  @media screen and (max-width:540px){
+    
+    svg.c-area {
+        height: 17rem;
+      }
+      
+      
+      
+      div.carousel-caption a {
+        width: 48.5%;
+       
+      }
+     
+  
+      div.carousel-caption a img {
+        height: 13em;
+      }
+      
+    
+    
+      }
+    
+          
+
+
+      
+
+  /************************************************/
+
+
+  @media screen and (max-width:320px){
+    
+    svg.c-area {
+        height: 19rem;
+      }
+      
+      
+      
+      div.carousel-caption a {
+        width: 100%;
+       
+      }
+     
+      div.carousel-caption a.b,
+      div.carousel-caption a.c,
+      div.carousel-caption a.d,
+
+      
+    div.carousel-caption a.b img,
+    div.carousel-caption a.c img,
+    div.carousel-caption a.d img {
+      display:none ;
+    }
+      
+      div.carousel-caption a img {
+        height: 15rem;
+      }
+      
+    
+    
+      }
+    
+  

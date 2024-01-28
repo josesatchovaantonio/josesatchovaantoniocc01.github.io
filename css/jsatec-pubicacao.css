@@ -1,0 +1,250 @@
+div#global {
+    width: 98%;
+    height: auto;
+    margin:0 1%;
+}
+
+div#global div.globalsub {
+    width: 98%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: ;
+}
+
+div#global h1 {
+    color: #ffffff;
+    font: normal 20pt arial, helvetica, sans-serif;
+    text-align: center;
+
+}
+
+div#global div.secleft {
+    width: 78%;
+    height: auto;
+}
+
+
+div#global div.secleft div.maior {
+    width: 100%;
+    height: auto;
+    background-color: #2c2c2c;
+    border-radius: 8px;
+    padding: 1rem 0;
+}
+
+div#global div.secleft a.maior {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap ;
+    padding: 1rem 0;
+
+
+}
+
+
+
+
+div#global div.secleft a.maior img {
+    width: 40%;
+    height: 17rem;
+    border-radius: 8px;
+    margin-left: 0.5%;
+}
+
+
+div#global div.secleft a.maior div {
+    width: 58%;
+    height: 17rem;
+    margin-left: 1%;
+    overflow: hidden;
+}
+
+div#global div.secleft a.maior div span {
+    font: normal 9pt helvetica, arial, sans-serif;
+    color: #999999;
+}
+
+div#global div.secleft a.maior div h1 {
+    font: bold 20pt helvetica, arial, sans-serif;
+    padding: 0;
+    color: #ffc600;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 0.5rem 0;
+}
+
+
+div#global div.secleft a.maior div p {
+    font: normal 13pt helvetica, arial, sans-serif;
+    color: #ffffff;
+    text-align: justify;
+}
+
+div#global div.secleft div.maior:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+}
+
+/***********************************/
+
+/***********************************/
+
+div#global div.secleft div.outrosposts {
+    width: 100%;
+    height: auto;
+    background-color: #2c2c2c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    border-radius: 8px 8px 0 0;
+}
+
+div#global div.secleft div.outrosposts div.sub {
+    width: 32%;
+    padding: 0.5rem 0 0 0;
+    margin-top: 1rem;
+    background-color: #202020;
+}
+
+div#global div.secleft div.outrosposts div.sub a,
+div.secright div.sub a {
+    text-decoration: none;
+    width: 100%;
+    height: auto;
+}
+
+div#global div.secleft div.outrosposts div.sub .conteudo {
+    height: 28rem;
+    background-color: ;
+    overflow: hidden;
+}
+
+div#global div.secleft div.outrosposts div.sub a span,
+div.secright div.sub a span {
+    font: normal 9pt helvetica, arial, sans-serif;
+    color: #999999;
+   margin-left: 2%;
+}
+
+
+
+div#global div.secleft div.outrosposts div.sub .conteudo a img {
+    width: 98%;
+    margin: 0 1%;
+    height: 19rem;
+}
+
+
+div#global div.secleft div.outrosposts div.sub .conteudo a h1 {
+    font: bold 15pt helvetica, arial, sans-serif;
+    padding: 0;
+    color: #ffc600;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 0.5rem 0;
+}
+
+div#global div.secleft div.outrosposts .conteudo a p {
+    font: normal 13pt helvetica, arial, sans-serif;
+    color: #ffffff;
+    text-align: justify;
+}
+
+
+
+/******************************************/
+
+div.reaccao {
+    background-color: #3b3b3b;
+    width: 20%;
+    margin-left: 76%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem;
+    border-radius: 14px;
+}
+
+/********************************/
+
+
+
+div.reacc {
+    background-color: #3b3b3b;
+    width: 100%;
+    margin-left: ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem;
+
+}
+
+div.reacc div img {
+    width: 1.2rem;
+}
+
+div.reacc div span {
+    font: bold 8pt helvetica, arial, sans-serif;
+    color: #00eeff;
+}
+
+
+
+div.reaccao div.comentario {
+    margin-left: auto;
+}
+
+
+
+div.reaccao div img {
+    width: 1.2rem;
+}
+
+div.reaccao div span {
+    font: bold 8pt helvetica, arial, sans-serif;
+    color: #00eeff;
+}
+
+
+
+
+
+
+/***************************************************************/
+/***************  div#global div.secright   ********************/
+
+div#global div.secright {
+    width: 20%;
+    height: auto;
+    background-color: #2c2c2c;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5%;
+}
+
+div#global div.secright div.sub {
+    width: 98%;
+    margin: 1rem 1%;
+}
+
+
+div.secright div.sub .conteudo {
+    height: auto;
+    background-color: ;
+}
+
+
+div.secright div.sub .conteudo a img {
+    width: 100%;
+    height: 13rem;
+    border-radius: 8px 8px 0 0;
+}

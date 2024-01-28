@@ -1,0 +1,174 @@
+@media screen and (max-width:1100px) {}
+
+
+@media screen and (max-width:1095px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:650px) {
+
+
+
+    div.melhores {
+        width: 95%;
+
+    }
+
+    main#carousel h1 {
+        font: normal 30pt melhoresdesempre, arial, helvetica, sans-serif;
+    }
+
+
+
+    nav div div#sel_fom form#categ {
+        display: none;
+
+    }
+    div.melhores form select {
+        background-color: #353535;
+        color: #ffc600;
+        font: normal 15pt arial, helvetica, sans-serif;
+        padding: 0.5rem;
+        display: flex;
+    }
+
+
+}
+
+
+
+/************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:380px) {
+
+
+
+
+    main#carousel h1 {
+        font: normal 19pt melhoresdesempre, arial, helvetica, sans-serif;
+    }
+
+
+
+    div.melhores form select {
+        font: normal 15pt arial, helvetica, sans-serif;
+        padding: 0.3rem;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:580px) {  div.melhores form select {
+    font: normal 12pt arial, helvetica, sans-serif;
+    padding: 0.2rem;
+}
+
+main#carousel h1 {
+    font: normal 25pt melhoresdesempre, arial, helvetica, sans-serif;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:375px) {
+
+    main#carousel h1 {
+        font: normal 19pt melhoresdesempre, arial, helvetica, sans-serif;
+    }
+
+
+
+    div.melhores form select {
+        font: normal 12pt arial, helvetica, sans-serif;
+        padding: 0.2rem;
+    }
+}
+
+
+
+
+@media screen and (max-width:320px) {
+
+
+
+    div.melhores {
+        width: 95%;
+
+    }
+    main#carousel h1 {
+        font: normal 14pt melhoresdesempre, arial, helvetica, sans-serif;
+    }
+
+}
+
+
+
+@media screen and (max-width:240px) {
+
+    main#carousel h1 {
+        font: normal 12pt melhoresdesempre, arial, helvetica, sans-serif;
+    }
+
+
+
+    div.melhores form select {
+        font: normal 11pt arial, helvetica, sans-serif;
+        padding: 0.1rem;
+    }
+}

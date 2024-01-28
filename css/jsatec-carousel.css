@@ -1,0 +1,151 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+/**********************************/
+/**********************************/
+/**********************************/
+
+main#carousel {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0;
+  background-color: #000000;
+}
+
+@font-face {
+  font-family: melhoresdesempre;
+  src: url("../fontes/f.TTF");
+
+}
+
+
+
+div.melhores {
+  width: 99.5%;
+  height: auto;
+  background-color: ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+main#carousel h1 {
+  font: normal 25pt melhoresdesempre, arial, helvetica, sans-serif;
+  color: #ccc;
+  padding: 10px 0;
+  margin-left: 4.5%;
+}
+
+
+div.melhores form select {
+  background-color: #353535;
+  color: rgb(255, 255, 255);
+  font: normal 14pt arial, helvetica, sans-serif;
+  display: none;
+}
+
+
+button.c-controls {
+  width: 25px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-top: 9%;
+}
+
+
+
+svg.c-area {
+  height: 18rem;
+}
+
+
+svg.c-area div.container {}
+
+
+
+div.carousel-caption {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: -10%;
+
+}
+
+
+
+div.carousel-caption a {
+  width: 21%;
+}
+
+
+
+div.carousel-caption a:nth-of-type(2),
+div.carousel-caption a:nth-of-type(3),
+div.carousel-caption a:nth-of-type(4) {
+  margin-left: 2%;
+}
+
+
+
+
+div.carousel-caption a img {
+  width: 100%;
+  height: 15rem;
+  border-radius: 5px;
+}
+
+div.carousel-indicators {
+  background-color: ;
+}

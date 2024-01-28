@@ -1,0 +1,191 @@
+@charset "utf8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+div#site {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+}
+
+nav {
+    width: 100%;
+}
+
+nav div.sub {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0 0  2rem #9c9b9b95;
+    background-color: #000;
+
+}
+
+nav div#secleft {
+    width: 62%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav div a#cclogo {
+    width: 18%;
+    margin-left: 0.1rem;
+}
+
+nav div a#cclogo img {
+    width: 100%;
+    height: 50px;
+
+}
+
+nav div div#sel_fom {
+    width: 89%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav div div#sel_fom form#categ {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div#sel_fom form#categ select {
+    height: 2.2rem;
+    border: none;
+    font: normal 14pt helvetica, sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    text-align: center;
+    padding: 0 5px;
+    border-radius: 0;
+}
+
+
+
+nav div div#sel_fom form#pesquisar {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+div#sel_fom form#pesquisar input {
+    width: 92%;
+    height: 2.2rem;
+    border: none;
+    font: normal 14pt helvetica, sans-serif;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    text-align: center;
+    border-radius: 0;
+}
+
+div#sel_fom form#pesquisar button {
+    width: 8%;
+    height: 2.2rem;
+    border: none;
+    font: normal 14pt helvetica, sans-serif;
+    background-color: #fff;
+    border-radius: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
+    outline: none;
+}
+div#sel_fom form#pesquisar button svg{
+    width: 80%;
+}
+/*************************************/
+/*************************************/
+/*************************************/
+
+
+
+div#secright {
+    width: 28.5%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 8.8%;
+    justify-content: space-between;
+}
+
+a.entrar {
+    text-decoration: none;
+    color: #000000;
+    background-color: #ffc600;
+    padding: 5px 8px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font: normal 12pt helvetica, arial, sans-serif;
+}
+
+a.entrar:hover {
+    color: #000000;
+    background-color: #ffc600;
+    transform: translateX(5px);
+    transition: 0.5s all;
+}
+
+a.entrar svg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+a.donate {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font: normal 12pt helvetica, arial, sans-serif;
+}
+
+a.donate img {
+    width: 28px;
+    border: 0.5px solid #ffc600;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+
+div#secright a.adultcont {
+    text-decoration: none;
+    font: bold 10pt helvetica, arial, sans-serif;
+    padding: 8px 4px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+button.fecha-menu {
+    display: none;
+}
